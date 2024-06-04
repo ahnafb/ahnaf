@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta property="og:title" content="Website Portofolio Ahnaf untuk MSIB Bismillah lolos Batch 7">
+  <meta property="og:description"
+    content="Website Portofolio Ahnaf untuk MSIB Bismillah lolos Batch 7 made by ahnaf b arief" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <title>Ahnaf</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo tracking-widest">AHNAF</div>
+    <nav>
+      <ul id="sidemenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#sertif">Certificates</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#contact" class="contact-nav">Contact</a></li>
+        <i class='bx bx-x' onclick="closeMenu()"></i>
+      </ul>
+      <i class='bx bx-menu' onclick="openMenu()"></i>
+    </nav>
+  </header>
+
+  <div class="container" id="home" style="margin-bottom: 20vh;">
+    <div class="content">
+      <div class="text">
+        <h1>Front-End Developer</h1>
+        <p>Hi, I'm Ahnaf. A passionate Front-end Developer based in
+          Jakarta, Indonesia. <span>📍</span></p>
+        <div class="flex space-x-4">
+          <!-- github -->
+          <a href="https://github.com/ahnafb" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.325 3.438 9.799 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.016-2.04-3.338.725-4.042-1.61-4.042-1.61-.545-1.386-1.332-1.755-1.332-1.755-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.304 3.492.997.107-.775.42-1.305.763-1.606-2.665-.303-5.467-1.334-5.467-5.931 0-1.31.468-2.383 1.235-3.22-.124-.303-.535-1.527.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.398 3.003-.403 1.02.005 2.047.137 3.006.403 2.29-1.553 3.296-1.23 3.296-1.23.654 1.649.243 2.873.12 3.176.77.837 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.921.43.372.813 1.102.813 2.22 0 1.606-.014 2.896-.014 3.292 0 .322.216.696.825.577C20.565 22.092 24 17.62 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+          <!-- linkedin -->
+          <a href="https://www.linkedin.com/in/ahnafb" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.75 0-5 2.25-5 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5v-14c0-2.75-2.25-5-5-5zm-11 18h-3v-9h3v9zm-1.5-10.5c-.967 0-1.75-.783-1.75-1.75s.783-1.75 1.75-1.75 1.75.783 1.75 1.75-.783 1.75-1.75 1.75zm13.5 10.5h-3v-4.5c0-1.109-.891-2-2-2s-2 .891-2 2v4.5h-3v-9h3v1.191c.595-.963 1.68-1.591 2.891-1.591 1.973 0 3.609 1.625 3.609 3.609v5.791z" />
+            </svg>
+          </a>
+          <!-- IG -->
+          <a href="https://www.instagram.com/ahnsff/" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0C8.741 0 8.333.013 7.052.073 5.771.131 4.837.281 4.115.561c-.795.306-1.462.717-2.127 1.383C1.515 2.609 1.104 3.275.798 4.07.518 4.793.368 5.728.31 7.009.251 8.29.238 8.698.238 12c0 3.302.013 3.71.072 4.991.058 1.281.208 2.216.488 2.939.306.795.717 1.462 1.383 2.127.665.665 1.332 1.076 2.127 1.383.723.28 1.658.43 2.939.488 1.281.059 1.69.072 4.991.072 3.302 0 3.71-.013 4.991-.072 1.281-.058 2.216-.208 2.939-.488.795-.306 1.462-.717 2.127-1.383.665-.665 1.076-1.332 1.383-2.127.28-.723.43-1.658.488-2.939.059-1.281.072-1.69.072-4.991 0-3.302-.013-3.71-.072-4.991-.058-1.281-.208-2.216-.488-2.939-.306-.795-.717-1.462-1.383-2.127-.665-.665-1.332-1.076-2.127-1.383-.723-.28-1.658-.43-2.939-.488C15.71.013 15.302 0 12 0zm0 1.636c3.248 0 3.624.012 4.907.072 1.199.056 1.85.243 2.285.404.569.221.974.487 1.401.914.428.428.693.833.914 1.401.16.434.348 1.086.404 2.285.059 1.283.072 1.659.072 4.907 0 3.248-.012 3.624-.072 4.907-.056 1.199-.243 1.85-.404 2.285-.221.569-.487.974-.914 1.401-.428.428-.833.693-1.401.914-.434.16-1.086.348-2.285.404-1.283.059-1.659.072-4.907.072-3.248 0-3.624-.012-4.907-.072-1.199-.056-1.85-.243-2.285-.404-.569-.221-.974-.487-1.401-.914-.428-.428-.693-.833-.914-1.401-.16-.434-.348-1.086-.404-2.285C1.648 15.624 1.636 15.248 1.636 12c0-3.248.012-3.624.072-4.907.056-1.199.243-1.85.404-2.285.221-.569.487-.974.914-1.401.428-.428.833-.693 1.401-.914.434-.16 1.086-.348 2.285-.404C8.376 1.648 8.752 1.636 12 1.636zM12 5.818a6.182 6.182 0 1 0 0 12.364 6.182 6.182 0 0 0 0-12.364zm0 10.273a4.091 4.091 0 1 1 0-8.182 4.091 4.091 0 0 1 0 8.182zm7.552-10.909a1.485 1.485 0 1 1-2.97 0 1.485 1.485 0 0 1 2.97 0z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="/static/images/front (1).png" alt="Profile Picture">
+      </div>
+    </div>
+  </div>
+  <!-- <hr style="background-color: #FFE4C2; margin-inline: 7rem;"> -->
+
+  <div class="container" id="about">
+    <div class="content-about">
+      <div class="image-about">
+        <img src="/static/images/img-about.JPG" alt="Profile Picture">
+      </div>
+      <div class="text-about">
+        <h3>A little bit About Me</h3>
+        <p>I am a Computer Science undergraduate at Universitas Negeri Semarang, deeply passionate about programming.
+          Seeking an
+          internship to enhance my skills in a practical environment, I have a strong foundation in programming
+          languages such as HTML, CSS, JavaScript, and jQuery. Additionally, I amproficient in Flask, MongoDB, AJAX,
+          JSON, and Figma, eager to apply and expand these skills in a realworld setting, currently learning ReactJS and
+          I'm willing to learn other
+          frameworks like NextJS, Laravel, etc.
+        </p>
+        <hr>
+        <div class="card-edu">
+          <div class="unnes"><img src="/static/images/unnes-logo.jpg" alt="Unnes"></div>
+          <div class="card-content">
+            <h5 style="font-weight: bold;">Universitas Negeri Semarang</h5>
+            <h5>2021 - Present</h5>
+            <p>Majoring in Computer Science
+              <br>
+              GPA 3.64/4.00 (6th semester)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <hr style="background-color: #FFE4C2; margin-inline: 7rem;"> -->
+  <div class="container" id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <img src="/static/images/skills/HTML.png" alt="HTML" class="skill-icon">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/CSS.png" alt="CSS" class="skill-icon">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/tailwindcss.jpg" alt="TailwindCSS" class="skill-icon">
+        <span>TailwindCSS</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/flask.png" alt="Flask" class="skill-icon">
+        <span>Flask (Python Framework)</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/MONGODB.png" alt="MongoDB" class="skill-icon">
+        <span>MongoDB</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/jQuery.png" alt="jQuery" class="skill-icon">
+        <span>jQuery</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/GIT.png" alt="Git" class="skill-icon">
+        <span>Git</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/JS.png" alt="JavaScript" class="skill-icon">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/PYTHON.jpg" alt="Python" class="skill-icon">
+        <span>Python</span>
+      </div>
+      <div class="skill">
+        <img src="/static/images/skills/FIGMa2.png" alt="Figma" class="skill-icon">
+        <span>Figma</span>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <hr style="background-color: #FFE4C2; margin-inline: 7rem;"> -->
+
+  <!-- Projects -->
+  <div class="container" id="projects" style="width: 1080px;">
+    <h2 style="font-weight: bold;">Projects</h2>
+    <!-- Project 1 -->
+    <div class="border-b border-gray-300 py-4">
+      <div class="flex justify-between items-center toggle-details-container">
+        <h3 class="text-xl font-medium toggle-title">Survey Kepuasan Masyarakat Dinas Kependudukan dan Pencatatan Sipil
+          Kota Semarang</h3>
+        <button class="text-gray-500 focus:outline-none toggle-details">▼</button>
+      </div>
+      <div class="project-details mt-2 hidden">
+        <p style="opacity: 0.8;">Citizen Satisfaction Survey web application to measure public satisfaction with
+          Dispendukcapil Semarang's services, using
+          <strong>Flask</strong>, <strong>jQuery</strong>, and <strong>MongoDB</strong>
+        </p>
+        <div class="flex items-center mt-2">
+          <span class="inline-flex items-center px-2 py-1 rounded bg-green-200 text-green-800 text-sm font-medium mr-2">
+            <svg class="w-1.5 h-2.5 mr-1.5 animate-ping" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10"></circle>
+            </svg>
+            Live
+          </span>
+          <a href="https://deploy-skm-dukcapil.vercel.app/" target="_blank"
+            class="ml-auto inline-block px-4 py-2 text-sm font-medium text-white bg-yellow-400 rounded hover:bg-yellow-500"
+            style="text-decoration: none; border: 1px solid #111">Visit Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="border-b border-gray-300 py-4">
+      <div class="flex justify-between items-center toggle-details-container">
+        <h3 class="text-xl font-medium toggle-title">The Library</h3>
+        <button class="text-gray-500 focus:outline-none toggle-details">▼</button>
+      </div>
+      <div class="project-details mt-2 hidden">
+        <p style="opacity: 0.8;">The Library is an online library website that we created using HTML, CSS, Flask,
+          Bootstrap, and others. Implemented genre-based filtering, allowing users to explore books by their preferred
+          genres
+        </p>
+        <div class="flex items-center mt-2">
+          <span class="inline-flex items-center px-2 py-1 rounded bg-green-200 text-green-800 text-sm font-medium mr-2">
+            <svg class="w-1.5 h-2.5 mr-1.5 animate-ping" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10"></circle>
+            </svg>
+            Live
+          </span>
+          <a href="the-libraryk1.glitch.me"
+            class="ml-auto inline-block px-4 py-2 text-sm font-medium text-white bg-yellow-400 rounded hover:bg-yellow-500"
+            style="text-decoration: none; border: 1px solid #111">Visit Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="border-b border-gray-300 py-4">
+      <div class="flex justify-between items-center toggle-details-container">
+        <h3 class="text-xl font-medium toggle-title">Sweeter</h3>
+        <button class="text-gray-500 focus:outline-none toggle-details">▼</button>
+      </div>
+      <div class="project-details mt-2 hidden">
+        <p style="opacity: 0.8;">The Sweeter is a mini website project for posting tweets, akin to Twitter, implementing
+          concepts learned in the LearningX Course
+        </p>
+        <div class="flex items-center mt-2">
+          <span class="inline-flex items-center px-2 py-1 rounded bg-green-200 text-green-800 text-sm font-medium mr-2">
+            <svg class="w-1.5 h-2.5 mr-1.5 animate-ping" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10"></circle>
+            </svg>
+            Live
+          </span>
+          <a href="https://ahnafs-sweeter.glitch.me/"
+            class="ml-auto inline-block px-4 py-2 text-sm font-medium text-white bg-yellow-400 rounded hover:bg-yellow-500"
+            style="text-decoration: none; border: 1px solid #111">Visit Project</a>
+        </div>
+      </div>
+    </div>
+    <div class="py-4">
+      <a href="/projects"
+        class="ml-auto bg-yellow-400 inline-block px-4 py-2 text-m font-medium text-black rounded hover:bg-yellow-300"
+        style="text-decoration: none; border: 1px solid #000">Click here to see more of work!
+      </a>
+    </div>
+  </div>
+  <!-- <hr style="background-color: #FFE4C2; margin-inline: 7rem;"> -->
+
+  <!-- Certifications -->
+  <h2 id="certificates">Certificates</h2>
+  <div id="sertif" class="container-certif">
+    <div class="sertifikat-container">
+      <h5 id="flask">LearningX Essential Programming Course – Fullstack Web Development (December 2023)</h5>
+      <p>PT Global Investment Institusi</p>
+      <a href="https://drive.google.com/file/d/1leoL7O92v3grITc22zdcLbZPmbHkTIgM/view?usp=sharing" target="_blank">
+        <img class="img-sertif"
+          src="/static/images/AHNAF BHAMAKERTI ARIEF - Sertifikat Penyelesaian SIB Batch 5 LearningX_page-0001.jpg"
+          alt="LearningX Fullstack Web Development">
+      </a>
+    </div>
+    <div class="sertifikat-container">
+      <h5>Xpresso 4 - UI/UX Design And Development</h5>
+      <p>PT Global Investment Institusi</p>
+      <a href="https://drive.google.com/file/d/1lBfxdLFi4xES-h4r96rWUj2KxLaGAlD7/view?usp=sharing" target="_blank">
+        <img class="img-sertif" src="/static/images/UIUX SERTIF.jpg" alt="LearningX Fullstack Web Development">
+      </a>
+    </div>
+  </div>
+
+  <!-- Experiences -->
+  <div id="experiences" class="container">
+    <h2 style="font-weight: bold;">Experiences</h2>
+    <!-- Exp 1 -->
+    <div class="experience-item mb-3 p-4 bg-yellow-100 text-black rounded-lg"
+      style="margin-top: 20px; border: 1px solid #937355;">
+      <h3 class="text-2xl font-bold">Bootcamp at LearningX Essential Programming Course</h3>
+      <p class="text-sm text-yellow-800">August 2023 – December 2023</p>
+      <h4 class="text-xl font-semibold">Fullstack Web Developer</h4>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Acquired comprehensive knowledge of fundamental web development, covering both front-end and back-end
+          aspects using Flask (Python Framework).</li>
+        <li>Executed assignments encompassing the development of a to-do list mini project, a fan book page, and web
+          scraping exercises.</li>
+        <li>Contributed to the final project, concentrating on design and front-end development, providing valuable
+          insights into effective teamwork and project management.</li>
+      </ul>
+      <div class="mt-2">
+        <h5 class="font-semibold">Related Techstacks</h5>
+        <div class="flex flex-wrap gap-2 mt-2">
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Flask <i
+              class='bx bxl-flask'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Mongo DB <i
+              class='bx bxl-mongodb'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">jQuery <i
+              class='bx bxl-jquery'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Github <i
+              class='bx bxl-github'></i></span>
+        </div>
+      </div>
+    </div>
+    <!-- Arrow Bounce -->
+    <div class="flex justify-center items-center py-2">
+      <svg class="animate-bounce w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </div>
+    <!-- Exp 2 -->
+    <div class="experience-item mb-3 p-4 bg-yellow-100 text-black rounded-lg"
+      style="margin-top: 20px; border: 1px solid #937355;">
+      <h3 class="text-2xl font-bold">Intern at Semarang City Civil Registry Service Office (Dispendukcapil Semarang)
+      </h3>
+      <p class="text-sm text-yellow-800">February 2024 – Present</p>
+      <h4 class="text-xl font-semibold">Web Developer</h4>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Developed a Citizen Satisfaction Survey web application to measure public satisfaction with Dispendukcapil
+          Semarang's services using Flask, MongoDB, and jQuery</li>
+        <li>Built an admin dashboard with login functionality, data visualization tools, filtering options, data export
+          to Excel, chart statistics, and CRUD capabilities for survey questions</li>
+        <li>Enhanced the efficiency of data collection and analysis of citizen satisfaction</li>
+      </ul>
+      <div class="mt-2">
+        <h5 class="font-semibold">Related Techstacks</h5>
+        <div class="flex flex-wrap gap-2 mt-2">
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Flask <i
+              class='bx bxl-flask'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Mongo DB <i
+              class='bx bxl-mongodb'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">jQuery <i
+              class='bx bxl-jquery'></i></span>
+          <span class="hover-techstacks px-3 py-1 bg-gray-100 text-purple-800 rounded-md">Github <i
+              class='bx bxl-github'></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <hr style="background-color: #FFE4C2; margin-inline: 7rem;"> -->
+  <!-- Contact -->
+  <div id="contact" class="container mx-auto">
+    <div class="text-black p-6 rounded-lg flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6">
+      <div class="space-y-4 w-1/3">
+        <h2 class="text-3xl font-semibold">Contact Me!</h2>
+        <div class="space-y-2">
+          <div class="flex items-center space-x-2">
+            <span class="contact-icon text-yellow-500">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M2 6.75v10.5c0 1.8 1.45 3.25 3.25 3.25h13.5c1.8 0 3.25-1.45 3.25-3.25V6.75C22 4.95 20.55 3.5 18.75 3.5H5.25C3.45 3.5 2 4.95 2 6.75zm2 0c0-.68.56-1.25 1.25-1.25h13.5c.68 0 1.25.56 1.25 1.25v10.5c0 .68-.56 1.25-1.25 1.25H5.25c-.68 0-1.25-.56-1.25-1.25V6.75zm8 2.75c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H7c-.41 0-.75.34-.75.75s.34.75.75.75h5zm4 5c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H7c-.41 0-.75.34-.75.75s.34.75.75.75h7zm-2 3c.41 0 .75-.34.75-.75s-.34-.75-.75-.75H7c-.41 0-.75.34-.75.75s.34.75.75.75h3z" />
+              </svg>
+            </span>
+            <span>ahnafbnf@gmail.com</span>
+          </div>
+          <div class="flex items-center space-x-2">
+            <span class="contact-icon text-yellow-500">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M3.6 4.85A3.3 3.3 0 017.35 2.1h9.3a3.3 3.3 0 013.3 3.3v9.3a3.3 3.3 0 01-3.3 3.3H7.35a3.3 3.3 0 01-3.3-3.3v-9.3zm9.25 1.4a1 1 0 10-1.2 1.65 1 1 0 101.2-1.65zM4 5.6a1 1 0 011-1h1.5a1 1 0 110 2H5a1 1 0 01-1-1zm15.75 1.5h-1.5a1 1 0 100 2h1.5a1 1 0 100-2zm-4.5 8a1 1 0 100-2H7a1 1 0 000 2h8.25zM5 14a1 1 0 100-2H4a1 1 0 000 2h1zm15.75-4a1 1 0 00-1-1h-1.5a1 1 0 000 2h1.5a1 1 0 001-1zM4 9.25h1.5a1 1 0 100-2H4a1 1 0 100 2zm1.5 6.25h1.5a1 1 0 110 2H5a1 1 0 01-1-1 1 1 0 011-1zm15.75 0a1 1 0 01-1 1h-1.5a1 1 0 110-2h1.5a1 1 0 011 1zm-6.5-6.25a1 1 0 100-2H7a1 1 0 000 2h7.25z" />
+              </svg>
+            </span>
+            <span>+62 812 9249 5783</span>
+          </div>
+        </div>
+        <div class="flex space-x-4">
+          <!-- github -->
+          <a href="https://github.com/ahnafb" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.325 3.438 9.799 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.016-2.04-3.338.725-4.042-1.61-4.042-1.61-.545-1.386-1.332-1.755-1.332-1.755-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.304 3.492.997.107-.775.42-1.305.763-1.606-2.665-.303-5.467-1.334-5.467-5.931 0-1.31.468-2.383 1.235-3.22-.124-.303-.535-1.527.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.398 3.003-.403 1.02.005 2.047.137 3.006.403 2.29-1.553 3.296-1.23 3.296-1.23.654 1.649.243 2.873.12 3.176.77.837 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.921.43.372.813 1.102.813 2.22 0 1.606-.014 2.896-.014 3.292 0 .322.216.696.825.577C20.565 22.092 24 17.62 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </a>
+          <!-- linkedin -->
+          <a href="https://www.linkedin.com/in/ahnafb" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.75 0-5 2.25-5 5v14c0 2.75 2.25 5 5 5h14c2.75 0 5-2.25 5-5v-14c0-2.75-2.25-5-5-5zm-11 18h-3v-9h3v9zm-1.5-10.5c-.967 0-1.75-.783-1.75-1.75s.783-1.75 1.75-1.75 1.75.783 1.75 1.75-.783 1.75-1.75 1.75zm13.5 10.5h-3v-4.5c0-1.109-.891-2-2-2s-2 .891-2 2v4.5h-3v-9h3v1.191c.595-.963 1.68-1.591 2.891-1.591 1.973 0 3.609 1.625 3.609 3.609v5.791z" />
+            </svg>
+          </a>
+          <!-- IG -->
+          <a href="https://www.instagram.com/ahnsff/" target="_blank" class="contact-icon">
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 0C8.741 0 8.333.013 7.052.073 5.771.131 4.837.281 4.115.561c-.795.306-1.462.717-2.127 1.383C1.515 2.609 1.104 3.275.798 4.07.518 4.793.368 5.728.31 7.009.251 8.29.238 8.698.238 12c0 3.302.013 3.71.072 4.991.058 1.281.208 2.216.488 2.939.306.795.717 1.462 1.383 2.127.665.665 1.332 1.076 2.127 1.383.723.28 1.658.43 2.939.488 1.281.059 1.69.072 4.991.072 3.302 0 3.71-.013 4.991-.072 1.281-.058 2.216-.208 2.939-.488.795-.306 1.462-.717 2.127-1.383.665-.665 1.076-1.332 1.383-2.127.28-.723.43-1.658.488-2.939.059-1.281.072-1.69.072-4.991 0-3.302-.013-3.71-.072-4.991-.058-1.281-.208-2.216-.488-2.939-.306-.795-.717-1.462-1.383-2.127-.665-.665-1.332-1.076-2.127-1.383-.723-.28-1.658-.43-2.939-.488C15.71.013 15.302 0 12 0zm0 1.636c3.248 0 3.624.012 4.907.072 1.199.056 1.85.243 2.285.404.569.221.974.487 1.401.914.428.428.693.833.914 1.401.16.434.348 1.086.404 2.285.059 1.283.072 1.659.072 4.907 0 3.248-.012 3.624-.072 4.907-.056 1.199-.243 1.85-.404 2.285-.221.569-.487.974-.914 1.401-.428.428-.833.693-1.401.914-.434.16-1.086.348-2.285.404-1.283.059-1.659.072-4.907.072-3.248 0-3.624-.012-4.907-.072-1.199-.056-1.85-.243-2.285-.404-.569-.221-.974-.487-1.401-.914-.428-.428-.693-.833-.914-1.401-.16-.434-.348-1.086-.404-2.285C1.648 15.624 1.636 15.248 1.636 12c0-3.248.012-3.624.072-4.907.056-1.199.243-1.85.404-2.285.221-.569.487-.974.914-1.401.428-.428.833-.693 1.401-.914.434-.16 1.086-.348 2.285-.404C8.376 1.648 8.752 1.636 12 1.636zM12 5.818a6.182 6.182 0 1 0 0 12.364 6.182 6.182 0 0 0 0-12.364zm0 10.273a4.091 4.091 0 1 1 0-8.182 4.091 4.091 0 0 1 0 8.182zm7.552-10.909a1.485 1.485 0 1 1-2.97 0 1.485 1.485 0 0 1 2.97 0z" />
+            </svg>
+          </a>
+        </div>
+        <a href="#"
+          class="block mt-6 text-center bg-yellow-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded no-underline">See
+          My Resume</a>
+      </div>
+      <div class="form bg-white text-black p-6 rounded-lg shadow-lg flex-grow">
+        <h2 class="text-2xl font-semibold mb-4">Hi, please kindly fill in the form below. Thanks!</h2>
+        <form name="submit-to-google-sheet" id="contactForm" class="space-y-4">
+          <div>
+            <label for="name" class="block text-sm font-medium">Name</label>
+            <input placeholder="John Wick" name="Name" type="text" id="nameInput"
+              class="block w-full mt-1 px-2 py-2 bg-gray-100 border border-gray-300 rounded" required>
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium">Email</label>
+            <input placeholder="j.wick@gmail.com" name="Email" type="email" id="emailInput"
+              class="block w-full mt-1 px-2 py-2 bg-gray-100 border border-gray-300 rounded" required>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium">Your Message</label>
+            <textarea id="messageInput" name="Message"
+              placeholder="Hey! Let's make a project! (This form will directly send to me so I can see your message, thanks! Please wait a moment after submit)"
+              class="block w-full mt-1 px-2 py-2 bg-gray-100 border border-gray-300 rounded"></textarea>
+          </div>
+          <span id="msg"></span>
+          <button type="submit" id="submitBtn"
+            class="block w-full bg-yellow-500 hover:bg-pink-700 text-white font-bold py-2 px-2 rounded">
+            <span>Submit</span>
+            <div id="spinner" class="loading-spinner hidden ml-2"></div>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer class="dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Property of ahnsf. #FreePalestine 🍉
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+          <a href="#about" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+          <a href="#contact" class="hover:underline me-4 md:me-6">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+<script>
+  // OPEN & CLOSE NAV MOBILE
+  var sidemenu = document.getElementById("sidemenu")
+
+  function openMenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closeMenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<!-- Function from form to spreadsheet -->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxT2WNfmvwACN0x9jL-uHqq5UmndS9loExI009auLmpv57olcQdNH-EX1RjNGGMONzi/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerHTML = "Form submitted successfully!"
+        setTimeout(function () {
+          msg.innerHTML = ""
+        }, 2000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</html>
