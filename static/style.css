@@ -649,4 +649,17 @@ nav .bx {
   .text-sm {
     padding-left: 16px;
   }
+  
+  /* Page project */
+  .project-card {
+    max-width: 380px;
+  }
+  
+  .project-info {
+    max-width: 310px;
+  }
+
+  .project-info p {
+    max-width: 310px;
+  }
 }
